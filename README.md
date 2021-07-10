@@ -10,7 +10,7 @@
 * 对初始化的**deploy.config.js**文件中的服务器用户名和密码加密（因为公司直接给了密码，懒得生成ssh的公私密钥），项目初始化自动生成加密密钥和加密偏移（cryptoKey， cryptoIv），这俩个值可以直接解开加密密文，所以务必不要将这个俩个字段的值上传。
 * 本项目暴露了加密方法，开发者可以自行生成**cryptoKey**、**cryptoIv**（请使用16位16进制的字符），然后进行加密。解密使用**deploy.config.js**文件中暴露的**cryptoKey**、**cryptoIv**字段进行内部解密，本项目没有直接暴露解密方法，如有特殊需求，请 [查阅](https://github.com/tnnevol/auto-deploy) 代码
 
-### api
+## api
 **doInit**
 项目初始化生成 *deploy.config.js*文件
 

@@ -1,6 +1,6 @@
 const {cryptoKey, cryptoIv} = require('./.key')
 module.exports = {
-  projectName: 'auto-deploy',
+  projectName: 'robot-deploy',
   privateKey: '',
   passphrase: '',
   cryptoKey,
