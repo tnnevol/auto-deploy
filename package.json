@@ -1,0 +1,37 @@
+{
+  "name": "auto-deploy",
+  "version": "1.0.0",
+  "description": "自动化部署",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tnnevol/auto-deploy.git"
+  },
+  "keywords": [
+    "deploy",
+    "auto-deploy"
+  ],
+  "author": "tnnevol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnnevol/auto-deploy/issues"
+  },
+  "homepage": "https://github.com/tnnevol/auto-deploy#readme",
+  "dependencies": {
+    "archiver": "^5.0.2",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "crypto-js": "^4.0.0",
+    "dayjs": "^1.10.4",
+    "inquirer": "^7.3.3",
+    "minimist": "^1.2.5",
+    "node-ssh": "^11.0.0",
+    "ora": "^5.1.0",
+    "prettier": "^2.1.1",
+    "uuid": "^8.3.2"
+  }
+}
